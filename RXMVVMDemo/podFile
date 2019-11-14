@@ -1,0 +1,75 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'RXMVVMDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+pod 'RxSwift'
+ pod 'RxCocoa'
+ pod 'RxDataSources'
+ pod 'RxAlamofire'
+pod 'Moya'
+
+pod 'Result'
+pod 'ObjectMapper'
+pod 'Moya-ObjectMapper'
+
+
+  # Pods for RXMVVMDemo
+
+  target 'RXMVVMDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RXMVVMDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'RXLoginDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxAlamofire'
+  pod 'Moya'
+  
+  pod 'Result'
+  pod 'ObjectMapper'
+  pod 'Moya-ObjectMapper'
+  
+end
+
+target 'RXRefreshDemo' do
+  use_frameworks!
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxAlamofire'
+  pod 'Moya'
+  
+  pod 'Result'
+  pod 'ObjectMapper'
+  pod 'Moya-ObjectMapper'
+  pod 'MJRefresh'
+
+end
+
+target 'UIImagePickerControllerDelegateProxy' do
+  use_frameworks!
+   pod 'RxSwift'
+   pod 'RxCocoa'
+   pod 'RxDataSources'
+   pod 'RxAlamofire'
+   pod 'Moya'
+   
+   pod 'Result'
+   pod 'ObjectMapper'
+   pod 'Moya-ObjectMapper'
+   pod 'MJRefresh'
+
+end

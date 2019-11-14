@@ -1,0 +1,6 @@
+framework module Pods_RXRefreshDemo {
+  umbrella header "Pods-RXRefreshDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

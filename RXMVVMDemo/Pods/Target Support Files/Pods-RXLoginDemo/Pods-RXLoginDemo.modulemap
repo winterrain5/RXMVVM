@@ -1,0 +1,6 @@
+framework module Pods_RXLoginDemo {
+  umbrella header "Pods-RXLoginDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
